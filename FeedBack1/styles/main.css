@@ -1,21 +1,13 @@
 body
 {
-    font: Arial, sans-serif;
+    font: Verdana, Arial, sans-serif;
 }
 
-.buttonArea,
-.footerText,
-#geoLocationContainer,
-#helloWorldInput,
-#helloWorldText
-{
-    text-align: center;
-}
 
-#txtName
+.settings
 {
     border: 1px solid #AAA;
-    border-radius: 15px;
+    border-radius: 5px;
     position:static;
     margin-left: 1em;
     margin-top: 0.3em;
@@ -23,4 +15,63 @@ body
     background:white;
     color: black;
     padding: 7px;
+    display: inline-block;
+    width: 250px
 }
+
+
+.photoPreview
+{ 
+        position: absolute; 
+        left: 50%; 
+        top: 0%; 
+        margin-left: -160px;    /* this is half of the image width */ 
+}
+
+.metricNumber
+{ 
+    width: 200px   
+}
+
+.imperialNumber
+{ 
+    width: 120px   
+}
+
+.panMeasurements
+{
+    vertical-align: bottom;
+}
+
+.actionButton
+{
+ /*   width: 75px;
+    height: 50px  */
+}
+
+
+.progress
+{
+    font-size: xx-small;
+    color: white;
+}
+
+.SitePhotoLabel
+{
+    color: black;
+}
+
+.km-android .SitePhotoLabel
+{
+    color: white;
+}
+
+#tblMetric
+{
+    color: black;
+}    
+
+#tblImperial
+{
+    color: black;
+}    
